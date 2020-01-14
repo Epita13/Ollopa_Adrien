@@ -54,6 +54,7 @@
     <Compile Include="Assets\Scripts/Objects/Block.cs" />
     <Compile Include="Assets\Scripts/Objects/World.cs" />
     <Compile Include="Assets\Scripts/Objects/Chunk.cs" />
+    <Compile Include="Assets\Scripts\Objects\Building.cs" />
     <Compile Include="Assets\Scripts\Objects\Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

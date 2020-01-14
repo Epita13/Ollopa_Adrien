@@ -11,7 +11,7 @@ public static class World
     public static int size;
     public static List<Chunk> chunks;
 
-
+    /// Initialise le monde et le calcule.
     public static void Init(int size, TileMap tilemp_blocks, int seed = -1)
     {
         // Random et seed
@@ -24,7 +24,8 @@ public static class World
         World.chunks = new List<Chunk>();
         World.Generate();
     }
-
+    
+    /// Calcule le monde en fonction des parametres.
     private static void Generate()
     {
         Chunk previus_chunk = null;
@@ -36,6 +37,7 @@ public static class World
         }
     }
 
+    /// Dessine le monde sur la scene.
     public static void Draw()
     {
         foreach (Chunk chunk in chunks)
